@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "863623473310",
+    "project_id": "mobile-b1078",
+    "storage_bucket": "mobile-b1078.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863623473310:android:1c96f1cd900808425d738f",
+        "android_client_info": {
+          "package_name": "androidtown.org.moblieteam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863623473310-r7dk6641mlr5b3si1m2oo7so9rnptmmn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI3lCbqFKGix0i1JnOyD1oaDXIUJw82mI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863623473310-r7dk6641mlr5b3si1m2oo7so9rnptmmn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
