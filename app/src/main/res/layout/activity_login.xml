@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
-        android:background="#ecfaf5">
+        android:background="@drawable/azure_gradient">
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
@@ -99,9 +99,10 @@
         <LinearLayout
 
             android:layout_width="300dp"
-            android:layout_height="40dp"
+            android:layout_height="45dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
+            android:background="@drawable/border3"
 
             android:weightSum="10"
             >
@@ -109,12 +110,12 @@
                 android:id="@+id/LoginEmail"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
                 android:gravity="left|center_vertical"
-
                 android:text="Email"
                 android:textColor="#191919"
                 android:textSize="13sp"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:textStyle="normal"/>
 
             <EditText
@@ -133,10 +134,10 @@
         <LinearLayout
 
             android:layout_width="300dp"
-            android:layout_height="40dp"
+            android:layout_height="45dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"
-
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border3"
             android:weightSum="10"
             >
 
@@ -145,6 +146,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
+                android:layout_marginLeft="5dp"
 
                 android:gravity="left|center_vertical"
                 android:text="Password"
@@ -182,7 +184,8 @@
             android:stateListAnimator="@null"
             android:text="Log in"
             android:textAllCaps="false"
-            android:textColor="#FFFFFF" />
+            android:textColor="#FFFFFF"
+            android:backgroundTint="@color/buttongreen"/>
 
         <LinearLayout
             android:layout_width="match_parent"

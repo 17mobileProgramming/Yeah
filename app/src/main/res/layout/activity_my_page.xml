@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<ScrollView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
@@ -69,7 +69,7 @@
             android:id="@+id/rv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="80dp" />
+            android:layout_marginTop="20dp" />
         <!--인프런 activity content list xml 코드 가져왔어요 동영상 강의로는 recyclerView2 부분입니다 -->
 
     </LinearLayout>

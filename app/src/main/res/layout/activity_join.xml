@@ -12,7 +12,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="150dp">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
             <TextView
                 android:text="회원가입"
@@ -22,6 +23,10 @@
                 android:textSize="20sp"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/cook1"/>
 
         </LinearLayout>
 
@@ -29,7 +34,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:background="#">
 
             <EditText
                 android:id="@+id/emailArea"
@@ -82,7 +88,8 @@
                 android:layout_margin="20dp"
                 android:text="회원가입하기"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"/>
+                android:layout_height="50dp"
+                android:background="@color/buttongreen"/>
 
 
         </LinearLayout>
