@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
-        android:background="@drawable/azure_gradient">
+        android:background="@drawable/mojito_gradient">
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
@@ -23,6 +23,7 @@
                 android:text="자"
                 android:textSize="40sp"
                 android:textStyle="bold"
+                android:textColor="#fff"
                 android:fontFamily="@font/sunc"/>
 
             <TextView
@@ -30,6 +31,7 @@
                 android:layout_height="wrap_content"
                 android:text="취생을 위한"
                 android:textSize="35sp"
+                android:textColor="#fff"
                 android:fontFamily="@font/sunc"/>
 
 
@@ -44,6 +46,7 @@
                 android:text="가"
                 android:textSize="40sp"
                 android:textStyle="bold"
+                android:textColor="#fff"
                 android:fontFamily="@font/sunc"
                 android:autoSizeTextType="uniform"/>
 
@@ -51,6 +54,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="천대의 밀"
+                android:textColor="#fff"
                 android:textSize="35sp"
                 android:fontFamily="@font/sunc"/>
             <TextView
@@ -59,6 +63,7 @@
                 android:text="키트"
                 android:textSize="40sp"
                 android:textStyle="bold"
+                android:textColor="#fff"
                 android:fontFamily="@font/sunc"/>
 
 
@@ -166,50 +171,23 @@
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/textViewFindPassword"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="15dp"
-            android:text="Forgot password?" />
+
 
         <Button
             android:id="@+id/buttonLogIn"
-            android:layout_width="300dp"
+            android:layout_width="320dp"
             android:layout_height="62dp"
             android:layout_gravity="center_horizontal"
             android:layout_margin="15dp"
 
             android:stateListAnimator="@null"
             android:text="Log in"
+            android:textSize="17sp"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
-            android:backgroundTint="@color/buttongreen"/>
+            android:backgroundTint="#466954"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:orientation="horizontal">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:gravity="center_vertical"
-                android:text="Don't have an account?"
-                android:textColor="#191919" />
-
-            <TextView
-                android:id="@+id/textViewSignUp"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
-                android:gravity="center_vertical"
-                android:text="Sign Up"
-
-                android:textStyle="bold" />
-        </LinearLayout>
 
 
     </LinearLayout>
