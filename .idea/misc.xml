@@ -6,18 +6,23 @@
         <entry key="..\:/MoblieTeam/app/src/main/res/drawable/azure_gradient.xml" value="0.2845" />
         <entry key="..\:/MoblieTeam/app/src/main/res/drawable/background_radius_1.xml" value="0.2845" />
         <entry key="..\:/MoblieTeam/app/src/main/res/drawable/background_radius_2.xml" value="0.2845" />
+        <entry key="..\:/MoblieTeam/app/src/main/res/drawable/background_radius_2_ivory.xml" value="0.288" />
         <entry key="..\:/MoblieTeam/app/src/main/res/drawable/border1.xml" value="0.2845" />
         <entry key="..\:/MoblieTeam/app/src/main/res/drawable/border2.xml" value="0.26" />
         <entry key="..\:/MoblieTeam/app/src/main/res/drawable/border3.xml" value="0.2845" />
+        <entry key="..\:/MoblieTeam/app/src/main/res/drawable/home_size.xml" value="0.288" />
+        <entry key="..\:/MoblieTeam/app/src/main/res/drawable/megaphone_size.xml" value="0.288" />
         <entry key="..\:/MoblieTeam/app/src/main/res/drawable/mojito_gradient.xml" value="0.215" />
+        <entry key="..\:/MoblieTeam/app/src/main/res/drawable/recipe_size.xml" value="0.288" />
         <entry key="..\:/MoblieTeam/app/src/main/res/drawable/softgrass_gradient.xml" value="0.2845" />
+        <entry key="..\:/MoblieTeam/app/src/main/res/drawable/user_size.xml" value="0.288" />
         <entry key="..\:/MoblieTeam/app/src/main/res/layout/activity_already_login.xml" value="0.3619791666666667" />
         <entry key="..\:/MoblieTeam/app/src/main/res/layout/activity_boast.xml" value="0.3619791666666667" />
         <entry key="..\:/MoblieTeam/app/src/main/res/layout/activity_join.xml" value="0.3619791666666667" />
         <entry key="..\:/MoblieTeam/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/MoblieTeam/app/src/main/res/layout/activity_login_start.xml" value="0.3619791666666667" />
         <entry key="..\:/MoblieTeam/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/MoblieTeam/app/src/main/res/layout/activity_my_page.xml" value="0.25" />
+        <entry key="..\:/MoblieTeam/app/src/main/res/layout/activity_my_page.xml" value="0.5" />
         <entry key="..\:/MoblieTeam/app/src/main/res/layout/activity_profilechange.xml" value="0.3619791666666667" />
         <entry key="..\:/MoblieTeam/app/src/main/res/layout/activity_search.xml" value="0.3619791666666667" />
         <entry key="..\:/MoblieTeam/app/src/main/res/layout/loading.xml" value="0.36614583333333334" />

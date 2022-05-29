@@ -1,47 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
 <RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/ivory">
 
 
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/tabs"
         android:layout_width="match_parent"
-        android:layout_height="57dp">
+        android:layout_height="65dp">
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="메인화면"
-            android:textSize="17sp"
-            android:textStyle="bold"
-            android:background="@drawable/background_radius_2"
             android:layout_weight="1"
-            android:layout_margin="1dp">
-        </Button>
+            android:text="메인 화면"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:scaleType="fitCenter"
+            android:drawableTop="@drawable/home_size"
+            android:background="@drawable/background_radius_2_ivory"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="레시피 검색"
-            android:textSize="17sp"
+            android:textSize="12sp"
             android:textStyle="bold"
-            android:background="@drawable/background_radius_2"
+            android:background="@drawable/background_radius_2_ivory"
             android:layout_weight="1"
-            android:layout_margin="1dp"/>
+            android:drawableTop="@drawable/recipe_size"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="레시피 자랑"
-            android:textSize="17sp"
+            android:textSize="12sp"
             android:textStyle="bold"
-            android:background="@drawable/background_radius_2"
-            android:layout_margin="1dp"
+            android:drawableTop="@drawable/megaphone_size"
+            android:background="@drawable/background_radius_2_ivory"
             android:layout_weight="1"/>
 
         <Button
@@ -49,10 +48,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="계정 관리"
-            android:textSize="17sp"
+            android:textSize="12sp"
             android:textStyle="bold"
-            android:background="@drawable/background_radius_2"
-            android:layout_margin="1dp"
+            android:drawableTop="@drawable/user_size"
+            android:background="@drawable/background_radius_2_ivory"
             android:layout_weight="1"/>
 
     </LinearLayout>
